@@ -13,3 +13,4 @@ Create Django project
 django-admin startproject holymovies .
 ```
 - nutno uvádět i mezeru a tečku na konci!
+- něco přidám
