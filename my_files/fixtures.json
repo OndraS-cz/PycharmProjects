@@ -1,0 +1,2273 @@
+[
+  {
+    "model": "viewer.genre",
+    "pk": 2,
+    "fields": {
+      "name": "akční"
+    }
+  },
+  {
+    "model": "viewer.genre",
+    "pk": 3,
+    "fields": {
+      "name": "animovaný"
+    }
+  },
+  {
+    "model": "viewer.genre",
+    "pk": 4,
+    "fields": {
+      "name": "dobrodružný"
+    }
+  },
+  {
+    "model": "viewer.genre",
+    "pk": 5,
+    "fields": {
+      "name": "dokument"
+    }
+  },
+  {
+    "model": "viewer.genre",
+    "pk": 6,
+    "fields": {
+      "name": "drama"
+    }
+  },
+  {
+    "model": "viewer.genre",
+    "pk": 7,
+    "fields": {
+      "name": "fantasy"
+    }
+  },
+  {
+    "model": "viewer.genre",
+    "pk": 8,
+    "fields": {
+      "name": "historický"
+    }
+  },
+  {
+    "model": "viewer.genre",
+    "pk": 9,
+    "fields": {
+      "name": "horror"
+    }
+  },
+  {
+    "model": "viewer.genre",
+    "pk": 10,
+    "fields": {
+      "name": "katastrofický"
+    }
+  },
+  {
+    "model": "viewer.genre",
+    "pk": 11,
+    "fields": {
+      "name": "komedie"
+    }
+  },
+  {
+    "model": "viewer.genre",
+    "pk": 12,
+    "fields": {
+      "name": "muzikál"
+    }
+  },
+  {
+    "model": "viewer.genre",
+    "pk": 13,
+    "fields": {
+      "name": "road movie"
+    }
+  },
+  {
+    "model": "viewer.genre",
+    "pk": 14,
+    "fields": {
+      "name": "romantický"
+    }
+  },
+  {
+    "model": "viewer.genre",
+    "pk": 15,
+    "fields": {
+      "name": "sci-fi"
+    }
+  },
+  {
+    "model": "viewer.genre",
+    "pk": 16,
+    "fields": {
+      "name": "thriller"
+    }
+  },
+  {
+    "model": "viewer.genre",
+    "pk": 17,
+    "fields": {
+      "name": "válečný"
+    }
+  },
+  {
+    "model": "viewer.genre",
+    "pk": 18,
+    "fields": {
+      "name": "western"
+    }
+  },
+  {
+    "model": "viewer.genre",
+    "pk": 19,
+    "fields": {
+      "name": "životopisný"
+    }
+  },
+  {
+    "model": "viewer.genre",
+    "pk": 20,
+    "fields": {
+      "name": "krimi"
+    }
+  },
+  {
+    "model": "viewer.genre",
+    "pk": 21,
+    "fields": {
+      "name": "mysteriózní"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 1,
+    "fields": {
+      "name": "Aruba",
+      "code": "ABW"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 2,
+    "fields": {
+      "name": "Afghanistan",
+      "code": "AFG"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 3,
+    "fields": {
+      "name": "Angola",
+      "code": "AGO"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 4,
+    "fields": {
+      "name": "Anguilla",
+      "code": "AIA"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 5,
+    "fields": {
+      "name": "Albania",
+      "code": "ALB"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 6,
+    "fields": {
+      "name": "Andorra",
+      "code": "AND"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 7,
+    "fields": {
+      "name": "Netherlands Antilles",
+      "code": "ANT"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 8,
+    "fields": {
+      "name": "United Arab Emirates",
+      "code": "ARE"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 9,
+    "fields": {
+      "name": "Argentina",
+      "code": "ARG"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 10,
+    "fields": {
+      "name": "Armenia",
+      "code": "ARM"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 11,
+    "fields": {
+      "name": "American Samoa",
+      "code": "ASM"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 12,
+    "fields": {
+      "name": "Antarctica",
+      "code": "ATA"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 13,
+    "fields": {
+      "name": "French Southern territories",
+      "code": "ATF"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 14,
+    "fields": {
+      "name": "Antigua and Barbuda",
+      "code": "ATG"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 15,
+    "fields": {
+      "name": "Australia",
+      "code": "AUS"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 16,
+    "fields": {
+      "name": "Austria",
+      "code": "AUT"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 17,
+    "fields": {
+      "name": "Azerbaijan",
+      "code": "AZE"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 18,
+    "fields": {
+      "name": "Burundi",
+      "code": "BDI"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 19,
+    "fields": {
+      "name": "Belgium",
+      "code": "BEL"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 20,
+    "fields": {
+      "name": "Benin",
+      "code": "BEN"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 21,
+    "fields": {
+      "name": "Burkina Faso",
+      "code": "BFA"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 22,
+    "fields": {
+      "name": "Bangladesh",
+      "code": "BGD"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 23,
+    "fields": {
+      "name": "Bulgaria",
+      "code": "BGR"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 24,
+    "fields": {
+      "name": "Bahrain",
+      "code": "BHR"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 25,
+    "fields": {
+      "name": "Bahamas",
+      "code": "BHS"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 26,
+    "fields": {
+      "name": "Bosnia and Herzegovina",
+      "code": "BIH"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 27,
+    "fields": {
+      "name": "Belarus",
+      "code": "BLR"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 28,
+    "fields": {
+      "name": "Belize",
+      "code": "BLZ"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 29,
+    "fields": {
+      "name": "Bermuda",
+      "code": "BMU"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 30,
+    "fields": {
+      "name": "Bolivia",
+      "code": "BOL"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 31,
+    "fields": {
+      "name": "Brazil",
+      "code": "BRA"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 32,
+    "fields": {
+      "name": "Barbados",
+      "code": "BRB"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 33,
+    "fields": {
+      "name": "Brunei",
+      "code": "BRN"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 34,
+    "fields": {
+      "name": "Bhutan",
+      "code": "BTN"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 35,
+    "fields": {
+      "name": "Bouvet Island",
+      "code": "BVT"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 36,
+    "fields": {
+      "name": "Botswana",
+      "code": "BWA"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 37,
+    "fields": {
+      "name": "Central African Republic",
+      "code": "CAF"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 38,
+    "fields": {
+      "name": "Canada",
+      "code": "CAN"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 39,
+    "fields": {
+      "name": "Cocos (Keeling) Islands",
+      "code": "CCK"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 40,
+    "fields": {
+      "name": "Côte d’Ivoire",
+      "code": "CIV"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 41,
+    "fields": {
+      "name": "Cameroon",
+      "code": "CMR"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 42,
+    "fields": {
+      "name": "Congo, The Democratic Republic of the",
+      "code": "COD"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 43,
+    "fields": {
+      "name": "Congo",
+      "code": "COG"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 44,
+    "fields": {
+      "name": "Cook Islands",
+      "code": "COK"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 45,
+    "fields": {
+      "name": "Colombia",
+      "code": "COL"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 46,
+    "fields": {
+      "name": "Comoros",
+      "code": "COM"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 47,
+    "fields": {
+      "name": "Cape Verde",
+      "code": "CPV"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 48,
+    "fields": {
+      "name": "Costa Rica",
+      "code": "CRI"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 49,
+    "fields": {
+      "name": "Cuba",
+      "code": "CUB"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 50,
+    "fields": {
+      "name": "Christmas Island",
+      "code": "CXR"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 51,
+    "fields": {
+      "name": "Cayman Islands",
+      "code": "CYM"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 52,
+    "fields": {
+      "name": "Cyprus",
+      "code": "CYP"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 53,
+    "fields": {
+      "name": "Czech Republic",
+      "code": "CZE"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 54,
+    "fields": {
+      "name": "Germany",
+      "code": "DEU"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 55,
+    "fields": {
+      "name": "Djibouti",
+      "code": "DJI"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 56,
+    "fields": {
+      "name": "Dominica",
+      "code": "DMA"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 57,
+    "fields": {
+      "name": "Denmark",
+      "code": "DNK"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 58,
+    "fields": {
+      "name": "Dominican Republic",
+      "code": "DOM"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 59,
+    "fields": {
+      "name": "Algeria",
+      "code": "DZA"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 60,
+    "fields": {
+      "name": "Ecuador",
+      "code": "ECU"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 61,
+    "fields": {
+      "name": "Egypt",
+      "code": "EGY"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 62,
+    "fields": {
+      "name": "Eritrea",
+      "code": "ERI"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 63,
+    "fields": {
+      "name": "Western Sahara",
+      "code": "ESH"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 64,
+    "fields": {
+      "name": "Spain",
+      "code": "ESP"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 65,
+    "fields": {
+      "name": "Estonia",
+      "code": "EST"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 66,
+    "fields": {
+      "name": "Ethiopia",
+      "code": "ETH"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 67,
+    "fields": {
+      "name": "Finland",
+      "code": "FIN"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 68,
+    "fields": {
+      "name": "Fiji Islands",
+      "code": "FJI"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 69,
+    "fields": {
+      "name": "Falkland Islands",
+      "code": "FLK"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 70,
+    "fields": {
+      "name": "France",
+      "code": "FRA"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 71,
+    "fields": {
+      "name": "Faroe Islands",
+      "code": "FRO"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 72,
+    "fields": {
+      "name": "Micronesia, Federated States of",
+      "code": "FSM"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 73,
+    "fields": {
+      "name": "Gabon",
+      "code": "GAB"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 74,
+    "fields": {
+      "name": "United Kingdom",
+      "code": "GBR"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 75,
+    "fields": {
+      "name": "Georgia",
+      "code": "GEO"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 76,
+    "fields": {
+      "name": "Ghana",
+      "code": "GHA"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 77,
+    "fields": {
+      "name": "Gibraltar",
+      "code": "GIB"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 78,
+    "fields": {
+      "name": "Guinea",
+      "code": "GIN"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 79,
+    "fields": {
+      "name": "Guadeloupe",
+      "code": "GLP"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 80,
+    "fields": {
+      "name": "Gambia",
+      "code": "GMB"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 81,
+    "fields": {
+      "name": "Guinea-Bissau",
+      "code": "GNB"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 82,
+    "fields": {
+      "name": "Equatorial Guinea",
+      "code": "GNQ"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 83,
+    "fields": {
+      "name": "Greece",
+      "code": "GRC"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 84,
+    "fields": {
+      "name": "Grenada",
+      "code": "GRD"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 85,
+    "fields": {
+      "name": "Greenland",
+      "code": "GRL"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 86,
+    "fields": {
+      "name": "Guatemala",
+      "code": "GTM"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 87,
+    "fields": {
+      "name": "French Guiana",
+      "code": "GUF"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 88,
+    "fields": {
+      "name": "Guam",
+      "code": "GUM"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 89,
+    "fields": {
+      "name": "Guyana",
+      "code": "GUY"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 90,
+    "fields": {
+      "name": "Hong Kong",
+      "code": "HKG"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 91,
+    "fields": {
+      "name": "Heard Island and McDonald Islands",
+      "code": "HMD"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 92,
+    "fields": {
+      "name": "Honduras",
+      "code": "HND"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 93,
+    "fields": {
+      "name": "Croatia",
+      "code": "HRV"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 94,
+    "fields": {
+      "name": "Haiti",
+      "code": "HTI"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 95,
+    "fields": {
+      "name": "Hungary",
+      "code": "HUN"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 96,
+    "fields": {
+      "name": "Switzerland",
+      "code": "CHE"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 97,
+    "fields": {
+      "name": "Chile",
+      "code": "CHL"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 98,
+    "fields": {
+      "name": "China",
+      "code": "CHN"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 99,
+    "fields": {
+      "name": "Indonesia",
+      "code": "IDN"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 100,
+    "fields": {
+      "name": "India",
+      "code": "IND"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 101,
+    "fields": {
+      "name": "British Indian Ocean Territory",
+      "code": "IOT"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 102,
+    "fields": {
+      "name": "Ireland",
+      "code": "IRL"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 103,
+    "fields": {
+      "name": "Iran",
+      "code": "IRN"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 104,
+    "fields": {
+      "name": "Iraq",
+      "code": "IRQ"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 105,
+    "fields": {
+      "name": "Iceland",
+      "code": "ISL"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 106,
+    "fields": {
+      "name": "Israel",
+      "code": "ISR"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 107,
+    "fields": {
+      "name": "Italy",
+      "code": "ITA"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 108,
+    "fields": {
+      "name": "Jamaica",
+      "code": "JAM"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 109,
+    "fields": {
+      "name": "Jordan",
+      "code": "JOR"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 110,
+    "fields": {
+      "name": "Japan",
+      "code": "JPN"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 111,
+    "fields": {
+      "name": "Kazakstan",
+      "code": "KAZ"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 112,
+    "fields": {
+      "name": "Kenya",
+      "code": "KEN"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 113,
+    "fields": {
+      "name": "Kyrgyzstan",
+      "code": "KGZ"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 114,
+    "fields": {
+      "name": "Cambodia",
+      "code": "KHM"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 115,
+    "fields": {
+      "name": "Kiribati",
+      "code": "KIR"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 116,
+    "fields": {
+      "name": "Saint Kitts and Nevis",
+      "code": "KNA"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 117,
+    "fields": {
+      "name": "South Korea",
+      "code": "KOR"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 118,
+    "fields": {
+      "name": "Kuwait",
+      "code": "KWT"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 119,
+    "fields": {
+      "name": "Laos",
+      "code": "LAO"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 120,
+    "fields": {
+      "name": "Lebanon",
+      "code": "LBN"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 121,
+    "fields": {
+      "name": "Liberia",
+      "code": "LBR"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 122,
+    "fields": {
+      "name": "Libyan Arab Jamahiriya",
+      "code": "LBY"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 123,
+    "fields": {
+      "name": "Saint Lucia",
+      "code": "LCA"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 124,
+    "fields": {
+      "name": "Liechtenstein",
+      "code": "LIE"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 125,
+    "fields": {
+      "name": "Sri Lanka",
+      "code": "LKA"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 126,
+    "fields": {
+      "name": "Lesotho",
+      "code": "LSO"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 127,
+    "fields": {
+      "name": "Lithuania",
+      "code": "LTU"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 128,
+    "fields": {
+      "name": "Luxembourg",
+      "code": "LUX"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 129,
+    "fields": {
+      "name": "Latvia",
+      "code": "LVA"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 130,
+    "fields": {
+      "name": "Macao",
+      "code": "MAC"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 131,
+    "fields": {
+      "name": "Morocco",
+      "code": "MAR"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 132,
+    "fields": {
+      "name": "Monaco",
+      "code": "MCO"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 133,
+    "fields": {
+      "name": "Moldova",
+      "code": "MDA"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 134,
+    "fields": {
+      "name": "Madagascar",
+      "code": "MDG"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 135,
+    "fields": {
+      "name": "Maldives",
+      "code": "MDV"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 136,
+    "fields": {
+      "name": "Mexico",
+      "code": "MEX"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 137,
+    "fields": {
+      "name": "Marshall Islands",
+      "code": "MHL"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 138,
+    "fields": {
+      "name": "Macedonia",
+      "code": "MKD"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 139,
+    "fields": {
+      "name": "Mali",
+      "code": "MLI"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 140,
+    "fields": {
+      "name": "Malta",
+      "code": "MLT"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 141,
+    "fields": {
+      "name": "Myanmar",
+      "code": "MMR"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 142,
+    "fields": {
+      "name": "Mongolia",
+      "code": "MNG"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 143,
+    "fields": {
+      "name": "Northern Mariana Islands",
+      "code": "MNP"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 144,
+    "fields": {
+      "name": "Mozambique",
+      "code": "MOZ"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 145,
+    "fields": {
+      "name": "Mauritania",
+      "code": "MRT"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 146,
+    "fields": {
+      "name": "Montserrat",
+      "code": "MSR"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 147,
+    "fields": {
+      "name": "Martinique",
+      "code": "MTQ"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 148,
+    "fields": {
+      "name": "Mauritius",
+      "code": "MUS"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 149,
+    "fields": {
+      "name": "Malawi",
+      "code": "MWI"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 150,
+    "fields": {
+      "name": "Malaysia",
+      "code": "MYS"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 151,
+    "fields": {
+      "name": "Mayotte",
+      "code": "MYT"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 152,
+    "fields": {
+      "name": "Namibia",
+      "code": "NAM"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 153,
+    "fields": {
+      "name": "New Caledonia",
+      "code": "NCL"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 154,
+    "fields": {
+      "name": "Niger",
+      "code": "NER"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 155,
+    "fields": {
+      "name": "Norfolk Island",
+      "code": "NFK"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 156,
+    "fields": {
+      "name": "Nigeria",
+      "code": "NGA"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 157,
+    "fields": {
+      "name": "Nicaragua",
+      "code": "NIC"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 158,
+    "fields": {
+      "name": "Niue",
+      "code": "NIU"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 159,
+    "fields": {
+      "name": "Netherlands",
+      "code": "NLD"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 160,
+    "fields": {
+      "name": "Norway",
+      "code": "NOR"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 161,
+    "fields": {
+      "name": "Nepal",
+      "code": "NPL"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 162,
+    "fields": {
+      "name": "Nauru",
+      "code": "NRU"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 163,
+    "fields": {
+      "name": "New Zealand",
+      "code": "NZL"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 164,
+    "fields": {
+      "name": "Oman",
+      "code": "OMN"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 165,
+    "fields": {
+      "name": "Pakistan",
+      "code": "PAK"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 166,
+    "fields": {
+      "name": "Panama",
+      "code": "PAN"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 167,
+    "fields": {
+      "name": "Pitcairn",
+      "code": "PCN"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 168,
+    "fields": {
+      "name": "Peru",
+      "code": "PER"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 169,
+    "fields": {
+      "name": "Philippines",
+      "code": "PHL"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 170,
+    "fields": {
+      "name": "Palau",
+      "code": "PLW"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 171,
+    "fields": {
+      "name": "Papua New Guinea",
+      "code": "PNG"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 172,
+    "fields": {
+      "name": "Poland",
+      "code": "POL"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 173,
+    "fields": {
+      "name": "Puerto Rico",
+      "code": "PRI"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 174,
+    "fields": {
+      "name": "North Korea",
+      "code": "PRK"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 175,
+    "fields": {
+      "name": "Portugal",
+      "code": "PRT"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 176,
+    "fields": {
+      "name": "Paraguay",
+      "code": "PRY"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 177,
+    "fields": {
+      "name": "Palestine",
+      "code": "PSE"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 178,
+    "fields": {
+      "name": "French Polynesia",
+      "code": "PYF"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 179,
+    "fields": {
+      "name": "Qatar",
+      "code": "QAT"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 180,
+    "fields": {
+      "name": "Réunion",
+      "code": "REU"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 181,
+    "fields": {
+      "name": "Romania",
+      "code": "ROM"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 182,
+    "fields": {
+      "name": "Russian Federation",
+      "code": "RUS"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 183,
+    "fields": {
+      "name": "Rwanda",
+      "code": "RWA"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 184,
+    "fields": {
+      "name": "Saudi Arabia",
+      "code": "SAU"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 185,
+    "fields": {
+      "name": "Sudan",
+      "code": "SDN"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 186,
+    "fields": {
+      "name": "Senegal",
+      "code": "SEN"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 187,
+    "fields": {
+      "name": "Singapore",
+      "code": "SGP"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 188,
+    "fields": {
+      "name": "South Georgia and the South Sandwich Islands",
+      "code": "SGS"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 189,
+    "fields": {
+      "name": "Saint Helena",
+      "code": "SHN"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 190,
+    "fields": {
+      "name": "Svalbard and Jan Mayen",
+      "code": "SJM"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 191,
+    "fields": {
+      "name": "Solomon Islands",
+      "code": "SLB"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 192,
+    "fields": {
+      "name": "Sierra Leone",
+      "code": "SLE"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 193,
+    "fields": {
+      "name": "El Salvador",
+      "code": "SLV"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 194,
+    "fields": {
+      "name": "San Marino",
+      "code": "SMR"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 195,
+    "fields": {
+      "name": "Somalia",
+      "code": "SOM"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 196,
+    "fields": {
+      "name": "Saint Pierre and Miquelon",
+      "code": "SPM"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 197,
+    "fields": {
+      "name": "Sao Tome and Principe",
+      "code": "STP"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 198,
+    "fields": {
+      "name": "Suriname",
+      "code": "SUR"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 199,
+    "fields": {
+      "name": "Slovakia",
+      "code": "SVK"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 200,
+    "fields": {
+      "name": "Slovenia",
+      "code": "SVN"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 201,
+    "fields": {
+      "name": "Sweden",
+      "code": "SWE"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 202,
+    "fields": {
+      "name": "Swaziland",
+      "code": "SWZ"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 203,
+    "fields": {
+      "name": "Seychelles",
+      "code": "SYC"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 204,
+    "fields": {
+      "name": "Syria",
+      "code": "SYR"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 205,
+    "fields": {
+      "name": "Turks and Caicos Islands",
+      "code": "TCA"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 206,
+    "fields": {
+      "name": "Chad",
+      "code": "TCD"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 207,
+    "fields": {
+      "name": "Togo",
+      "code": "TGO"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 208,
+    "fields": {
+      "name": "Thailand",
+      "code": "THA"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 209,
+    "fields": {
+      "name": "Tajikistan",
+      "code": "TJK"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 210,
+    "fields": {
+      "name": "Tokelau",
+      "code": "TKL"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 211,
+    "fields": {
+      "name": "Turkmenistan",
+      "code": "TKM"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 212,
+    "fields": {
+      "name": "East Timor",
+      "code": "TMP"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 213,
+    "fields": {
+      "name": "Tonga",
+      "code": "TON"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 214,
+    "fields": {
+      "name": "Trinidad and Tobago",
+      "code": "TTO"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 215,
+    "fields": {
+      "name": "Tunisia",
+      "code": "TUN"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 216,
+    "fields": {
+      "name": "Turkey",
+      "code": "TUR"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 217,
+    "fields": {
+      "name": "Tuvalu",
+      "code": "TUV"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 218,
+    "fields": {
+      "name": "Taiwan",
+      "code": "TWN"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 219,
+    "fields": {
+      "name": "Tanzania",
+      "code": "TZA"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 220,
+    "fields": {
+      "name": "Uganda",
+      "code": "UGA"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 221,
+    "fields": {
+      "name": "Ukraine",
+      "code": "UKR"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 222,
+    "fields": {
+      "name": "United States Minor Outlying Islands",
+      "code": "UMI"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 223,
+    "fields": {
+      "name": "Uruguay",
+      "code": "URY"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 224,
+    "fields": {
+      "name": "United States",
+      "code": "USA"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 225,
+    "fields": {
+      "name": "Uzbekistan",
+      "code": "UZB"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 226,
+    "fields": {
+      "name": "Holy See (Vatican cities State)",
+      "code": "VAT"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 227,
+    "fields": {
+      "name": "Saint Vincent and the Grenadines",
+      "code": "VCT"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 228,
+    "fields": {
+      "name": "Venezuela",
+      "code": "VEN"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 229,
+    "fields": {
+      "name": "Virgin Islands, British",
+      "code": "VGB"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 230,
+    "fields": {
+      "name": "Virgin Islands, U.S.",
+      "code": "VIR"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 231,
+    "fields": {
+      "name": "Vietnam",
+      "code": "VNM"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 232,
+    "fields": {
+      "name": "Vanuatu",
+      "code": "VUT"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 233,
+    "fields": {
+      "name": "Wallis and Futuna",
+      "code": "WLF"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 234,
+    "fields": {
+      "name": "Samoa",
+      "code": "WSM"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 235,
+    "fields": {
+      "name": "Yemen",
+      "code": "YEM"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 236,
+    "fields": {
+      "name": "Yugoslavia",
+      "code": "YUG"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 237,
+    "fields": {
+      "name": "South Africa",
+      "code": "ZAF"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 238,
+    "fields": {
+      "name": "Zambia",
+      "code": "ZMB"
+    }
+  },
+  {
+    "model": "viewer.country",
+    "pk": 239,
+    "fields": {
+      "name": "Zimbabwe",
+      "code": "ZWE"
+    }
+  },
+  {
+    "model": "viewer.creator",
+    "pk": 1,
+    "fields": {
+      "name": "Tim",
+      "surname": "Robbins",
+      "date_of_birth": "1958-10-16",
+      "date_of_death": null,
+      "country_of_birth": 224,
+      "country_of_death": null,
+      "biography": ""
+    }
+  },
+  {
+    "model": "viewer.creator",
+    "pk": 2,
+    "fields": {
+      "name": "Morgan",
+      "surname": "Freeman",
+      "date_of_birth": "1937-06-01",
+      "date_of_death": null,
+      "country_of_birth": 224,
+      "country_of_death": null,
+      "biography": ""
+    }
+  },
+  {
+    "model": "viewer.creator",
+    "pk": 3,
+    "fields": {
+      "name": "Frank",
+      "surname": "Darabont",
+      "date_of_birth": "1959-01-28",
+      "date_of_death": null,
+      "country_of_birth": 70,
+      "country_of_death": null,
+      "biography": ""
+    }
+  },
+  {
+    "model": "viewer.creator",
+    "pk": 4,
+    "fields": {
+      "name": "William",
+      "surname": "Sadler",
+      "date_of_birth": "1950-04-13",
+      "date_of_death": null,
+      "country_of_birth": 224,
+      "country_of_death": null,
+      "biography": "William Thomas Sadler je americký filmový a televizní herec. Mezi jeho významné televizní a filmové role patří postava Lewise Burwella „Chesty\" Pullera z TV seriálu THE PACIFIC /2010/, role Luthera Sloana ze sci-fi seriálu STAR TREK: DEEP SPACE NINE /1993-1999/, postava šerifa Jima Valentiho ze sci-fi seriálu ROSWELL /1999-2002/, role odsouzence Heywooda z kultovního dramatu THE SHAWSHANK REDEMPTION /1994/ nebo postava Grima Reapera ze sci-fi komedie BILL & TED"
+    }
+  },
+  {
+    "model": "viewer.creator",
+    "pk": 5,
+    "fields": {
+      "name": "Robert",
+      "surname": "Zemeckis",
+      "date_of_birth": "1952-05-14",
+      "date_of_death": null,
+      "country_of_birth": 224,
+      "country_of_death": null,
+      "biography": "Okuliarnatý vizionár, producent, vedúci výroby, scenárista, režisér, tvorca amerických filmov, pokladaných za „veľké“. Krátkometrážne nakrúcal už na strednej. Študoval na Juhokalifornskej univerzite (prestúpil na ňu z Northern Illinois University). Dnes býva pokladaný za „žiaka“ Stevena Spielberg, podobne, ako napr. Joe Dante („Gemlins“) alebo Tobe Hooper („Poltergeist“)."
+    }
+  },
+  {
+    "model": "viewer.creator",
+    "pk": 6,
+    "fields": {
+      "name": "Tom",
+      "surname": "Hanks",
+      "date_of_birth": "1956-07-06",
+      "date_of_death": null,
+      "country_of_birth": 224,
+      "country_of_death": null,
+      "biography": "Jeho rodiče se rozvedli, když mu bylo pouhých pět let. Na střední škole se věnoval sportu a chtěl se stát kosmonautem. Nakonec ale objevil herectví. Své komediální nadání zužitkoval už na prknech školního divadla, kde také začal sbírat svá první ocenění. Jeho kroky posléze vedly přes Chabotskou univerzitu na Kalifornskou státní univerzitu v Scramentu, kde potkal svou první manželku Samanthu Lewes, s níž má syna Colina (který se také stal hercem) a dceru Elizabeth."
+    }
+  },
+  {
+    "model": "viewer.creator",
+    "pk": 7,
+    "fields": {
+      "name": "Gary",
+      "surname": "Sinise",
+      "date_of_birth": "1955-03-17",
+      "date_of_death": null,
+      "country_of_birth": 224,
+      "country_of_death": null,
+      "biography": ""
+    }
+  },
+  {
+    "model": "viewer.creator",
+    "pk": 8,
+    "fields": {
+      "name": "Robin",
+      "surname": "Wright",
+      "date_of_birth": "1966-04-08",
+      "date_of_death": null,
+      "country_of_birth": 224,
+      "country_of_death": null,
+      "biography": ""
+    }
+  },
+  {
+    "model": "viewer.creator",
+    "pk": 9,
+    "fields": {
+      "name": "Michael Clarke",
+      "surname": "Duncan",
+      "date_of_birth": "1957-12-10",
+      "date_of_death": "2012-09-03",
+      "country_of_birth": 224,
+      "country_of_death": 224,
+      "biography": "Ak máte dva metre, 150 kíl, obvod bicepsu ako iný stehna a hlas že sa cudzí z neho potentuje skôr, ako vás uvidí vyjsť z tmavej ulice, nedá sa o vás hovoriť ako o tuctovom. U Duncana je navyše sympatické, že tieto úctyhodné čísla nepatria vytrénovanej svalovej hmote; má však to šťastie, že vďaka výške sa o ňom nedá hovoriť ako o tučnom ale ako o masívnom. A to je, ako by vám potvrdil John Goodman, sakra rozdiel.\r\n\r\nDuncan svoje telo podľa očakávaní \"zneužíval\" na flek bodyguarda, ale po tom, čo bol jeden z jeho bývalých klientov, raper Notorius B. I. G. zavraždený, zavesil povolanie na klinec a svoju citlivú dušu upísal filmu koncom 80. rokov 20. storočia. Začiatky neboli ľahké, prebíjal sa reklamami na pivo, seriálmi, ktoré u nás nikto nepozná."
+    }
+  },
+  {
+    "model": "viewer.creator",
+    "pk": 10,
+    "fields": {
+      "name": "David",
+      "surname": "Morse",
+      "date_of_birth": "1953-10-11",
+      "date_of_death": null,
+      "country_of_birth": 224,
+      "country_of_death": null,
+      "biography": "Po tom, čo strávil niekoľko rokov v súbore Boston Repertory Theater a študovaním herectva v New Yorku, sa zaľúbil do Broadwaya, ale aj iných dosiek, znamenajúcich svet. V celovečerákoch hrá od 80. rokov (INSIDE MOVES Richarda Donnera). Dlhé roky pracoval pre TV, kde získal popularitu seriálmi ST. ELSEWHERE a BIG WAVE DAVE´S a v 21. storočí sa ku nim vrátil seriálom TAXI (Hack) s Georgeom Dzundzom."
+    }
+  },
+  {
+    "model": "viewer.movie",
+    "pk": 1,
+    "fields": {
+      "title_orig": "The Shawshank Redemption",
+      "title_cz": "Vykoupení z věznice Shawshank",
+      "length": 142,
+      "released": 1994,
+      "description": "Mladý bankéř Andy Dufresne (Tim Robbins) je v roce 1947 odsouzen za vraždu své ženy a jejího milence. Přesto, že tento čin popírá, čeká na něj dvojnásobný doživotní trest v obávané věznici Shawshank. Andy se snaží přizpůsobit vězeňskému životu a po krušných začátcích se sblíží s Redem (Morgan Freeman), jenž si tu odpykává svůj doživotní trest už dvacet let. Sílu, jak přežít zdejší peklo, Andy nachází v tajném snu a skryté naději na svobodu.",
+      "rating": null,
+      "created_record": "2024-08-29T10:47:55.572Z",
+      "updated_record": "2024-08-29T10:47:55.572Z",
+      "genres": [
+        6,
+        20
+      ],
+      "countries": [
+        224
+      ],
+      "actors": [
+        2,
+        1,
+        4
+      ],
+      "directors": [
+        3
+      ]
+    }
+  },
+  {
+    "model": "viewer.movie",
+    "pk": 2,
+    "fields": {
+      "title_orig": "Forrest Gump",
+      "title_cz": "Forrest Gump",
+      "length": 142,
+      "released": 1994,
+      "description": "Poněkud prostoduchý Forrest Gump, vyzbrojen užitečnými radami své matky, se vydává na pouť životem, který mu připraví nejedno překvapení. Mnoho hořkých, ale také nádherných chvil...\r\nMladý muž jménem Forrest Gump sedí na zastávce autobusu a každému, kdo si přisedne, vypráví o svém životě. Poněkud jednoduchý chlapec se narodil v Alabamě, kde žil jen s matkou, která mu dala mnoho dobrých rad do života. Především tu, aby si nikdy nenechal od nikoho namluvit, že je jiný než ostatní. Dostala ho dokonce i do normální školy, přestože jí doporučovali zvláštní, vzhledem k jeho nízkému IQ. Forrest, terč zlomyslných vtípků a krutých žertů svých kamarádů, si tam najde přítelkyni na celý život: Jenny je půvabná blonďatá holčička, kterou zneužívá otec, a tak ji dají do výchovy babičce. Oba se stanou nerozlučnými přáteli. Jenny Forrestovi dá další cennou radu do života: když budeš mít problém, utíkej. A tak Forrest proutíká školou, pak i střední školou a nakonec vysokou, kde se osvědčí jako nejrychlejší hráč amerického fotbalu. Po svém prožívá i velké události v amerických dějinách, třeba přijetí dvou prvních černých studentů na univerzitu nebo setkání s prezidentem Kennedym... Forrest se na vše dívá svýma naivníma očima, aniž by věci zvažoval do důsledků. Řídí se upřímným citem, jako když stále a opakovaně „zachraňuje“ Jenny, jakmile se mu zdá, že jí někdo ubližuje. Když získá diplom, dá se naverbovat do armády. Doslechne se, že Jenny vyhodili ze školy kvůli nestoudným fotkám a že se pokouší v Memphisu prosadit jako zpěvačka. Navštíví ji a znovu nešikovně „zachraňuje“. Pak je poslán do Vietnamu. Ani hrůzy války tak docela nechápe, i když se při jednom útoku projde dokonalým peklem. Je zabit jeho zatím jediný přítel, černoch Bubba. Forrest, kterého chtěl Bubba přibrat jako partnera do své firmy, je zdrcený. Přesto zachrání několik dalších vojáků včetně poručíka Dana Taylora, který mu ale není pranic vděčný: jakožto člen rodiny, v níž celé generace mužů umíraly ve válkách, si přeje zemřít po boku svých mužů. A on navíc přijde o obě nohy. Zraněn je ale i Forrest a vrací se domů. Ještě ve Vietnamu v nemocnici se mu vrátí dopisy, které pravidelně psal Jenny a jejichž adresátka nebyla zastižena... Po návratu domů mu prezident Johnson udělí medaili a při prohlídce Washingtonu se přimíchá do davu protestujících proti válce. Je vyzván, aby pohovořil o Vietnamu, nejde ale zvuk. Přesto ho tisícihlavý dav zdraví jako hrdinu. Mezi přihlížejícími je i Jenny, nyní horlivá aktivistka protiválečného hnutí Černí panteři. Shledání Forresta s jeho velkou a jedinou láskou je dojemné. Prochodí spolu celou noc a povídají si. Forrest nechce, aby Jenny opět odjela, ale ta se chystá do Kalifornie. Forrest zůstává zase sám.",
+      "rating": null,
+      "created_record": "2024-08-29T11:17:53.354Z",
+      "updated_record": "2024-08-29T11:17:53.354Z",
+      "genres": [
+        6,
+        11,
+        14
+      ],
+      "countries": [
+        224
+      ],
+      "actors": [
+        6,
+        7,
+        8
+      ],
+      "directors": [
+        5
+      ]
+    }
+  },
+  {
+    "model": "viewer.movie",
+    "pk": 3,
+    "fields": {
+      "title_orig": "The Green Mile",
+      "title_cz": "Zelená míle",
+      "length": 188,
+      "released": 1999,
+      "description": "Paul Edgecomb se vrací ve vzpomínkách do roku 1935, kdy byl zaměstnán v louisianské věznici jako hlavní dozorce. Tenkrát se tam setkal s výjimečným, byť duchem prostým mužem, který byl obdařen nejen velkým srdcem, ale také nadpozemskými schopnostmi. Byl to John Coffey, neprávem odsouzený na smrt za vraždu dvou malých holčiček. V té době trpěl Paul těžkým zánětem močového měchýře a také neměl šanci zbavit se sadistického, všemi nenáviděného dozorce Percyho. Jednoho dne chce s Paulem mluvit Coffey. Když se k němu přiblíží, chytí ho rukou v rozkroku, pak šokovaného Paula pustí a on uvidí, jak černoch vypustil z úst černý oblak, a současně si uvědomí, že jeho bolestivý zánět zmizel. Coffey má zvláštní schopnost, díky které vyléčí ženu správce věznice, ke které ho tajně v noci převezou, dokonce oživí cvičenou myš jednoho vězně, kterou zabil zlomyslný Percy. John Coffey, kterého čeká smrt, přijímá svůj úděl odevzdaně a bez hořkosti.",
+      "rating": null,
+      "created_record": "2024-08-29T11:21:13.289Z",
+      "updated_record": "2024-08-29T11:21:13.289Z",
+      "genres": [
+        6,
+        20,
+        21
+      ],
+      "countries": [
+        224
+      ],
+      "actors": [
+        9,
+        6,
+        10
+      ],
+      "directors": [
+        3
+      ]
+    }
+  }
+]
