@@ -6,7 +6,7 @@
 <div class="movie-details">
     <div class="movie-genres"><strong>Žánry: </strong>
         {% for genre in movie.genres.all %}
-            {{ genre }}{% if not forloop.last %},{% endif %}
+            <a href="{% url 'genre' genre.id %}">{{ genre }}</a>{% if not forloop.last %},{% endif %}
         {% empty %}
             Tento film nemá uveden žádný žánr.
         {% endfor %}
@@ -22,7 +22,7 @@
     <div class="movie-directors">
         <strong>Režie: </strong>
         {% for creator in movie.directors.all %}
-            {{ creator }}{% if not forloop.last %},{% endif %}
+            <a href="{% url 'creator' creator.id %}">{{ creator }}</a>{% if not forloop.last %},{% endif %}
         {% empty %}
             Tento film nemá uveden žádného režiséra.
         {% endfor %}
@@ -30,7 +30,7 @@
     <div class="movie-actors">
         <strong>Herci: </strong>
         {% for creator in movie.actors.all %}
-            {{ creator }}{% if not forloop.last %},{% endif %}
+            <a href="{% url 'creator' creator.id %}">{{ creator }}</a>{% if not forloop.last %},{% endif %}
         {% empty %}
             Tento film nemá uveden žádného herce.
         {% endfor %}
