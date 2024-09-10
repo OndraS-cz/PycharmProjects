@@ -12,7 +12,25 @@ def movies(request):
     context = {'movies': movies_}
     return render(request, 'movies.html', context)
 
+
+
+def movie(request, pk):
+    if Movie.objects.filter(id=pk).exists():
+        movie_ = Movie.objects.get(id=pk)
+        context = {'movie': movie_}
+        return render(request, 'movie.html', context)
+    return movies(request)
+
+
 def creators(request):
     creators_ = Creator.objects.all()
     context = {'creators': creators_}
     return render(request, 'creators.html', context)
+
+
+def creator(request,pk):
+    if Creator.objects.filter(id=pk).exists():
+        creator_ = Creator.objects.all()
+        context = {'creator': creator_}
+        return render(request, 'creator.html', context)
+    return creators(request)
