@@ -1,8 +1,15 @@
-from django.shortcuts import render
-from django.views import View
-from django.views.generic import TemplateView, ListView
+from logging import getLogger
 
+from django.db.models.expressions import result
+from django.shortcuts import render
+from django.urls import reverse_lazy
+from django.views import View
+from django.views.generic import TemplateView, ListView, FormView
+
+from viewer.forms import CreatorForm, CreatorModelForm
 from viewer.models import Movie, Creator, Genre
+
+LOGGER = getLogger()
 
 
 def home(request):
@@ -86,6 +93,38 @@ class CreatorsListView(ListView):
     template_name = "creators.html"
     model = Creator
     context_object_name = 'creators'
+
+
+class CreatorCreateView(FormView):
+    template_name = 'form.html'
+    form_class = CreatorModelForm
+    success_url = reverse_lazy('creators')
+
+
+    def form_valid(self, form):
+        result = super().form_valid(form)
+        cleaned_data = form.cleaned_data
+        name = cleaned_data['name'],
+        if name is None:
+            name = ''
+        surname = cleaned_data['surname'],
+        if surname is None:
+            surname = ''
+        Creator.objects.create(
+            name=name,
+            surname=surname,
+            date_of_birth=cleaned_data['date_of_birth'],
+            date_of_death=cleaned_data['date_of_death'],
+            country_of_birth=cleaned_data['country_of_birth'],
+            country_of_death=cleaned_data['country_of_death'],
+            biography=cleaned_data['biography'],
+        )
+        return result
+
+
+    def form_invalid(self, form):
+        LOGGER.warning('User provided invalid data.')
+        return super().form_invalid(form)
 
 
 def genres(request):
