@@ -1,10 +1,10 @@
 from logging import getLogger
 
 from django.db.models.expressions import result
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from django.urls import reverse_lazy
 from django.views import View
-from django.views.generic import TemplateView, ListView, FormView
+from django.views.generic import TemplateView, ListView, FormView, CreateView, UpdateView, DeleteView
 
 from viewer.forms import CreatorForm, CreatorModelForm
 from viewer.models import Movie, Creator, Genre
@@ -63,18 +63,11 @@ class MoviesListView(ListView):
         return context"""
 
 
+
 def creators(request):
     creators_ = Creator.objects.all()
     context = {'creators': creators_}
-    return render(request, 'creators.html', context)
-
-
-def creator(request,pk):
-    if Creator.objects.filter(id=pk).exists():
-        creator_ = Creator.objects.get(id=pk)
-        context = {'creator': creator_}
-        return render(request, 'creator.html', context)
-    return creators(request)
+    return render(request, "creators.html", context)
 
 
 class CreatorsView(View):
@@ -95,19 +88,25 @@ class CreatorsListView(ListView):
     context_object_name = 'creators'
 
 
-class CreatorCreateView(FormView):
+def creator(request, pk):
+    if Creator.objects.filter(id=pk).exists():
+        creator_ = Creator.objects.get(id=pk)
+        return render(request, "creator.html", {'creator': creator_})
+    return redirect('creators')
+
+
+"""class CreatorCreateView(FormView):
     template_name = 'form.html'
     form_class = CreatorModelForm
     success_url = reverse_lazy('creators')
 
-
     def form_valid(self, form):
         result = super().form_valid(form)
         cleaned_data = form.cleaned_data
-        name = cleaned_data['name'],
+        name = cleaned_data['name']
         if name is None:
             name = ''
-        surname = cleaned_data['surname'],
+        surname = cleaned_data['surname']
         if surname is None:
             surname = ''
         Creator.objects.create(
@@ -117,14 +116,46 @@ class CreatorCreateView(FormView):
             date_of_death=cleaned_data['date_of_death'],
             country_of_birth=cleaned_data['country_of_birth'],
             country_of_death=cleaned_data['country_of_death'],
-            biography=cleaned_data['biography'],
+            biography=cleaned_data['biography']
         )
         return result
-
 
     def form_invalid(self, form):
         LOGGER.warning('User provided invalid data.')
         return super().form_invalid(form)
+"""
+
+
+class CreatorCreateView(CreateView):
+    template_name = 'form.html'
+    form_class = CreatorModelForm
+    success_url = reverse_lazy('creators')
+
+    def form_invalid(self, form):
+        LOGGER.warning('User provided invalid data.')
+        return super().form_invalid(form)
+
+
+class CreatorUpdateView(UpdateView):
+    template_name = 'form.html'
+    form_class = CreatorModelForm
+    success_url = reverse_lazy('creators')
+    model = Creator
+
+    def form_invalid(self, form):
+        LOGGER.warning('User provided invalid data while updating a creator.')
+        return super().form_invalid(form)
+
+
+class CreatorDeleteView(DeleteView):
+    template_name = 'confirm_delete.html'
+    model = Creator
+    success_url = reverse_lazy('creators')
+
+
+# TODO: Movie - Create, Update, Delete
+# TODO: Country - Create, Update, Delete
+# TODO: Genre - Create, Update, Delete
 
 
 def genres(request):
