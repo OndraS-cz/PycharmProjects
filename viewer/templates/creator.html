@@ -5,15 +5,15 @@
 <div class="creator-details">
     <div class="creator-birthdate">
         <strong>Narození:</strong>
-        {{ creator.date_of_birth }}
+        {{ creator.date_of_birth|date:"d.m.Y" }}
         ({{ creator.country_of_birth }})
-        věk: {{ creator.age }}
+        věk: {{ creator.age }} let
     </div>
 
     <div class="creator-deathdate">
         {% if creator.date_of_death %}
             <strong>Úmrtí:</strong>
-            {{ creator.date_of_death }}
+            {{ creator.date_of_death|date:"d.m.Y" }}
             ({{ creator.country_of_death }})
         {% endif %}
     </div>
@@ -36,8 +36,10 @@
         <strong>Biografie:</strong><br>
         {{ creator.biography }}
     </div>
-
-    <a href="{% url 'creator_update' creator.id %}" class="btn btn-primary">Aktualizovat</a>
-    <a href="{% url 'creator_delete' creator.id %}" class="btn btn-danger">Smazat</a>
+    <br>
+    {% if user.is_authenticated %}
+        <a href="{% url 'creator_update' creator.id %}" class="btn btn-primary">Aktualizovat</a>
+        <a href="{% url 'creator_delete' creator.id %}" class="btn btn-danger">Smazat</a>
+    {% endif %}
 </div>
 {% endblock %}

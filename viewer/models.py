@@ -1,3 +1,4 @@
+from datetime import date
 from platform import release
 from xmlrpc.client import DateTime
 
@@ -6,49 +7,6 @@ from django.db.models import Model, CharField, DateField, ForeignKey, SET_NULL, 
     IntegerField, FloatField, DateTimeField
 
 # Create your models here.
-
-""" MODELS
-
-Genre
-- name: string
-
-Country
-- name: string
-- code: string
-
-Creator
-- name: string
-- surname: string
-- date_of_birth: Date
-- date_of_death: Date
-- country_of_birth: Country
-- country_of_death: Country
-- biography: string
-
-Movie
-- title_orig: string
-- title_cz: string
-- genres: List[Genre]
-- countries: List[Country]
-- actors: List[Creator]
-- directors: List[Creator]
-# TODO: Music, Script, ...
-- length: int(min)
-- released: int(year)
-- description: string
-- rating: float (výpočet z review)
-- created: DateTime
-- updated: DateTime
-
-Review
-- UserProfile: Profile
-- movie: Movie
-- review: string
-- rating: int(0-100)
-
-"""
-
-
 class Genre(Model):
     name = CharField(max_length=20, null=False, blank=False, unique=True)
 
@@ -103,6 +61,16 @@ class Creator(Model):
 
     def __str__(self):
         return f"{self.surname} {self.name}"
+
+
+    def age(self):
+        if self.date_of_birth:
+            end_date = date.today()
+            if self.date_of_death:
+                end_date = self.date_of_death
+            return (end_date.year - self.date_of_birth.year -
+                    ((end_date.month, end_date.day) < (self.date_of_birth.month, self.date_of_birth.day)))
+        return None
 
 
 class Movie(Model):

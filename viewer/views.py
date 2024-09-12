@@ -1,5 +1,7 @@
 from logging import getLogger
 
+from django.contrib.auth.decorators import login_required
+from django.contrib.auth.mixins import LoginRequiredMixin
 from django.db.models.expressions import result
 from django.shortcuts import render, redirect
 from django.urls import reverse_lazy
@@ -87,7 +89,7 @@ class CreatorsListView(ListView):
     model = Creator
     context_object_name = 'creators'
 
-
+# @login_required - používá se u funkce; u tříd používáme mixin, např: class CreatorUpdateView(LoginRequiredMixin, UpdateView)!
 def creator(request, pk):
     if Creator.objects.filter(id=pk).exists():
         creator_ = Creator.objects.get(id=pk)
@@ -95,38 +97,7 @@ def creator(request, pk):
     return redirect('creators')
 
 
-"""class CreatorCreateView(FormView):
-    template_name = 'form.html'
-    form_class = CreatorModelForm
-    success_url = reverse_lazy('creators')
-
-    def form_valid(self, form):
-        result = super().form_valid(form)
-        cleaned_data = form.cleaned_data
-        name = cleaned_data['name']
-        if name is None:
-            name = ''
-        surname = cleaned_data['surname']
-        if surname is None:
-            surname = ''
-        Creator.objects.create(
-            name=name,
-            surname=surname,
-            date_of_birth=cleaned_data['date_of_birth'],
-            date_of_death=cleaned_data['date_of_death'],
-            country_of_birth=cleaned_data['country_of_birth'],
-            country_of_death=cleaned_data['country_of_death'],
-            biography=cleaned_data['biography']
-        )
-        return result
-
-    def form_invalid(self, form):
-        LOGGER.warning('User provided invalid data.')
-        return super().form_invalid(form)
-"""
-
-
-class CreatorCreateView(CreateView):
+class CreatorCreateView(LoginRequiredMixin, CreateView):
     template_name = 'form.html'
     form_class = CreatorModelForm
     success_url = reverse_lazy('creators')
@@ -136,7 +107,7 @@ class CreatorCreateView(CreateView):
         return super().form_invalid(form)
 
 
-class CreatorUpdateView(UpdateView):
+class CreatorUpdateView(LoginRequiredMixin, UpdateView):
     template_name = 'form.html'
     form_class = CreatorModelForm
     success_url = reverse_lazy('creators')
@@ -147,7 +118,7 @@ class CreatorUpdateView(UpdateView):
         return super().form_invalid(form)
 
 
-class CreatorDeleteView(DeleteView):
+class CreatorDeleteView(LoginRequiredMixin, DeleteView):
     template_name = 'confirm_delete.html'
     model = Creator
     success_url = reverse_lazy('creators')

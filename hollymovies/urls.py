@@ -15,10 +15,10 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
+from django.contrib.auth.views import LoginView
 from django.urls import path
 
-from viewer.views import movies, home, creators, movie, MoviesView, MoviesTemplateView, MoviesListView, creator, \
-    CreatorCreateView, CreatorUpdateView, CreatorDeleteView, genre, genres, CreatorsListView
+from viewer.views import home, movie, MoviesListView, creator, CreatorCreateView, CreatorUpdateView, CreatorDeleteView, genre, genres, CreatorsListView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -42,4 +42,6 @@ urlpatterns = [
 
     path('genre/<pk>', genre, name='genre'),
     path('genres/', genres, name='genres'),
+
+    path('accounts/login/', LoginView.as_view(), name='login'),
 ]
