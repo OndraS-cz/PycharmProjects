@@ -97,4 +97,4 @@ class Movie(Model):
 
 
     def __str__(self):
-        return f"{self.title_orig} / {self.title_cz} ({self.released})"
+        return f"{self.title_cz} ({self.released})"

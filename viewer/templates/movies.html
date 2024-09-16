@@ -4,7 +4,12 @@
 <h1>Filmy</h1>
     <ul>
         {% for movie in movies %}
-            <li><a href="{% url 'movie' movie.id %}"> {{ movie }} </a></li>
+            <li><a href="{% url 'movie' movie.id %}"> {{ movie }} </a>
+                {% if user.is_authenticated %}
+                        <a href="{% url 'movie_update' movie.id %}">✏️</a>
+                        <a href="{% url 'movie_delete' movie.id %}">🗑</a>
+                    {% endif %}
+            </li>
         {% endfor %}
     </ul>
 {% endblock %}

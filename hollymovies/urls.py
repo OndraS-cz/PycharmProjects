@@ -18,22 +18,21 @@ from django.contrib import admin
 from django.contrib.auth.views import LoginView
 from django.urls import path
 
-from viewer.views import home, movie, MoviesListView, creator, CreatorCreateView, CreatorUpdateView, CreatorDeleteView, genre, genres, CreatorsListView
+from viewer.models import Movie
+from viewer.views import home, movie, MoviesListView, creator, CreatorCreateView, CreatorUpdateView, CreatorDeleteView, \
+    genre, genres, CreatorsListView, MovieDeleteView, MovieUpdateView, MovieCreateView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
 
     path('', home, name='home'),
 
-    #path('movies/', movies, name='movies'),
-    #path('movies/', MoviesView.as_view(), name='movies'),
-    #path('movies/', MoviesTemplateView.as_view(), name='movies'),
     path('movies/', MoviesListView.as_view(), name='movies'),
+    path('movie/create/', MovieCreateView.as_view(), name='movie_create'),
+    path('movie/update/<pk>/', MovieUpdateView.as_view(), name='movie_update'),
+    path('movie/delete/<pk>/', MovieDeleteView.as_view(), name='movie_delete'),
     path('movie/<pk>/', movie, name='movie'),
 
-    #path('creators/', creators, name='creators'),
-    #path('creators/', CreatorsView.as_view(), name='creators'),
-    #path('creators/', CreatorsTemplateView.as_view(), name='creators'),
     path('creators/', CreatorsListView.as_view(), name='creators'),
     path('creator/create/', CreatorCreateView.as_view(), name='creator_create'),
     path('creator/update/<pk>/', CreatorUpdateView.as_view(), name='creator_update'),

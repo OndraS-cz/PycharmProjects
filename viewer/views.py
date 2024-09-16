@@ -8,7 +8,7 @@ from django.urls import reverse_lazy
 from django.views import View
 from django.views.generic import TemplateView, ListView, FormView, CreateView, UpdateView, DeleteView
 
-from viewer.forms import CreatorForm, CreatorModelForm
+from viewer.forms import CreatorForm, CreatorModelForm, MovieModelForm
 from viewer.models import Movie, Creator, Genre
 
 LOGGER = getLogger()
@@ -125,6 +125,35 @@ class CreatorDeleteView(LoginRequiredMixin, DeleteView):
 
 
 # TODO: Movie - Create, Update, Delete
+class MovieCreateView(LoginRequiredMixin, CreateView):
+    template_name = 'form.html'
+    form_class = MovieModelForm
+    success_url = reverse_lazy('movies')
+
+    def form_invalid(self, form):
+        LOGGER.warning('User provided invalid data.')
+        return super().form_invalid(form)
+
+
+class MovieUpdateView(LoginRequiredMixin, UpdateView):
+    template_name = 'form.html'
+    form_class = MovieModelForm
+    success_url = reverse_lazy('movies')
+    model = Movie
+
+    def form_invalid(self, form):
+        LOGGER.warning('User provided invalid data while updating a movie.')
+        return super().form_invalid(form)
+
+
+class MovieDeleteView(LoginRequiredMixin, DeleteView):
+    template_name = 'confirm_delete.html'
+    model = Movie
+    success_url = reverse_lazy('movies')
+
+
+
+
 # TODO: Country - Create, Update, Delete
 # TODO: Genre - Create, Update, Delete
 

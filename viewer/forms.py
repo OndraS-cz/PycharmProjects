@@ -4,7 +4,7 @@ from django.core.exceptions import ValidationError
 from django.db.models.expressions import result
 from django.forms import Form, CharField, DateField, ModelChoiceField, Textarea, ModelForm, NumberInput
 
-from viewer.models import Country, Creator
+from viewer.models import Country, Creator, Movie
 
 
 class CreatorForm(Form):
@@ -73,3 +73,9 @@ class CreatorModelForm(ModelForm):
         surname = cleaned_data['surname']
         if len(name.strip()) == 0 and len(surname.strip()) == 0:
             raise ValidationError('Je nutno zadat jméno nebo příjmení!')
+
+
+class MovieModelForm(ModelForm):
+    class Meta:
+        model = Movie
+        fields = '__all__'
