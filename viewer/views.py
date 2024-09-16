@@ -124,7 +124,6 @@ class CreatorDeleteView(LoginRequiredMixin, DeleteView):
     success_url = reverse_lazy('creators')
 
 
-# TODO: Movie - Create, Update, Delete
 class MovieCreateView(LoginRequiredMixin, CreateView):
     template_name = 'form.html'
     form_class = MovieModelForm
